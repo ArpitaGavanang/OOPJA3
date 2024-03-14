@@ -1,0 +1,15 @@
+public class widening3 {
+    public static void main(String[] args){
+        int a = Integer.parseInt( args [0] );
+        char op = args[ 1 ].charAt(0); 
+        int b = Integer.parseInt( args [2] );
+        
+        if(op == '+'){
+             float result = a + b;
+             System.out.println(result);
+        }
+
+    
+    }
+    
+}

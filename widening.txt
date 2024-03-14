@@ -1,0 +1,13 @@
+public class widening {
+    public static void main(String[] args) {
+        int a = 4;
+        double b = a;//widening
+    
+        System.out.println(b);
+
+        int c = 4;
+        double d = (double)a;//widening
+    
+        System.out.println(b);
+    }
+}

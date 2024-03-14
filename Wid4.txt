@@ -1,0 +1,16 @@
+public class Wid4 {
+    public static void main(String[] args) {
+        int A = 25;
+        double B = A;
+        float C = (float) B;
+        String D = String.valueOf(C);
+        boolean E = Boolean.valueOf(D);
+
+        System.out.println("Int value = "+A);
+        System.out.println("Double value = "+B);
+        System.out.println("Float value = "+C);
+        System.out.println("String value = "+D);
+        System.out.println("Boolean value = "+E);
+    }
+    
+}

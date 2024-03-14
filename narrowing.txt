@@ -1,0 +1,9 @@
+public class narrowing {
+    
+    public static void main(String[] args){
+        double a = 45.55;
+        int b = (int) a;
+
+        System.out.println(b);
+    }
+}
